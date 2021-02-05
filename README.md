@@ -1,8 +1,8 @@
-## Creating a new UI theme by copying the Basic Theme (for Blazor)
+## Replace Basic Bootstrap theme with a free custom Bootstrap theme
 
 ## Introduction
 
-In this article, I will show how you can replace the **Basic Bootstrap Theme** with a **free Custom Bootstrap Theme** in a **Blazor APB Framework application**.
+In this article, I will show how you can replace the **Basic Bootstrap Theme** with a **free Custom Bootstrap Theme** in a **Blazor ABP Framework** application.
 
 ### Source Code
 
@@ -54,7 +54,7 @@ The following tools are needed to be able to run the solution.
 
 ## Remove the Package Reference of the Basic Theme in the Blazor project
 
-* Open the `[YourProjectName].Blazor.csproj` file and remove or comment out the **BasicTheme** package reference.
+* Open the **Blazor.csproj** file and remove or comment out the **BasicTheme** package reference.
 
 ![Remove or Comment out](images/remove_or_comment_out_in_blazor_csproj.jpg)
 
