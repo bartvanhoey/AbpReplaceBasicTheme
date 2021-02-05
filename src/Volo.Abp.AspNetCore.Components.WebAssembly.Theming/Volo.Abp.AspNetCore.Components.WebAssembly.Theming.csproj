@@ -1,16 +1,22 @@
 <Project Sdk="Microsoft.NET.Sdk.Razor">
 
-    <Import Project="..\..\..\configureawait.props" />
-    <Import Project="..\..\..\common.props" />
+    <!-- <Import Project="..\..\..\configureawait.props" />
+    <Import Project="..\..\..\common.props" /> -->
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="Volo.Abp.BlazoriseUI" Version="4.2.0" />
+      <PackageReference Include="Volo.Abp.Http.Client.IdentityModel.WebAssembly" Version="4.2.0" />
+      <PackageReference Include="Volo.Abp.UI.Navigation" Version="4.2.0" />
+    </ItemGroup>
+<!-- 
+    <ItemGroup>
         <ProjectReference Include="..\Volo.Abp.BlazoriseUI\Volo.Abp.BlazoriseUI.csproj" />
         <ProjectReference Include="..\Volo.Abp.Http.Client.IdentityModel.WebAssembly\Volo.Abp.Http.Client.IdentityModel.WebAssembly.csproj" />
         <ProjectReference Include="..\Volo.Abp.UI.Navigation\Volo.Abp.UI.Navigation.csproj" />
-    </ItemGroup>
+    </ItemGroup> -->
 
 </Project>

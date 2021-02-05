@@ -14,9 +14,10 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.*" />
   </ItemGroup>
 
+
   <ItemGroup>
     <PackageReference Include="Volo.Abp.Autofac.WebAssembly" Version="4.2.0" />
-    <PackageReference Include="Volo.Abp.AspNetCore.Components.WebAssembly.BasicTheme" Version="4.2.0" />
+    <!-- <PackageReference Include="Volo.Abp.AspNetCore.Components.WebAssembly.BasicTheme" Version="4.2.0" /> -->
   </ItemGroup>
 
   <ItemGroup>
@@ -26,6 +27,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\AbpReplaceBasicTheme.HttpApi.Client\AbpReplaceBasicTheme.HttpApi.Client.csproj" />
+    <ProjectReference Include="..\Volo.Abp.AspNetCore.Components.WebAssembly.BasicTheme\Volo.Abp.AspNetCore.Components.WebAssembly.BasicTheme.csproj" />
   </ItemGroup>
 
 </Project>

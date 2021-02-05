@@ -1,4 +1,4 @@
-﻿using Volo.Abp.AspNetCore.Components.WebAssembly.Theming;
+using Volo.Abp.AspNetCore.Components.WebAssembly.Theming;
 using Volo.Abp.AspNetCore.Components.WebAssembly.Theming.Routing;
 using Volo.Abp.AspNetCore.Components.WebAssembly.Theming.Toolbars;
 using Volo.Abp.Modularity;
