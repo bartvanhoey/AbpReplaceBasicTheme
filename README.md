@@ -94,7 +94,7 @@ The following tools are needed to be able to run the solution.
 
 * Run `dotnet build` in the **Blazor** project to see if the project builds successfully!
 
-## Replace Default Bootstrap theme with Custom Bootstrap theme
+## Replace Basic Bootstrap theme with Custom Bootstrap theme
 
 * Find yourself a a free Bootstrap theme on the internet. In this example I use the  [SuperHero Bootstrap Theme](https://bootswatch.com/superhero/) I found on [bootswatch.com](https://bootswatch.com/).
 
