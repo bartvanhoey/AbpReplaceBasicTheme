@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this article, I will show how you can replace the **Basic Bootstrap Theme** with a **free Custom Bootstrap Theme** in a **Blazor ABP Framework** application.
+In this article, I will show how you can replace the **Basic Bootstrap theme** with a **free Custom Bootstrap theme** in a **Blazor ABP Framework** application.
 
 ### Source Code
 
