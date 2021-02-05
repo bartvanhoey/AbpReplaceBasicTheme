@@ -50,19 +50,19 @@ The following tools are needed to be able to run the solution.
 * Copy the `Volo.Abp.AspNetCore.Components.WebAssembly.BasicTheme` project into the `src` folder of your project.
 * Copy the `Volo.Abp.AspNetCore.Components.WebAssembly.Theming` project into the `src` folder of your project.
 
-![src folder structure](images/src_folder_structure.jpg)
+![src folder structure](../images/src_folder_structure.jpg)
 
 ## Remove the Package Reference of the Basic Theme in the Blazor project
 
 * Open the **Blazor.csproj** file and remove or comment out the **BasicTheme** package reference.
 
-![Remove or Comment out](images/remove_or_comment_out_in_blazor_csproj.jpg)
+![Remove or Comment out](../images/remove_or_comment_out_in_blazor_csproj.jpg)
 
 ## Fix the build errors in WebAssembly.Theming project
 
 * Open file **Volo.Abp.AspNetCore.Components.WebAssembly.Theming.csproj** and remove or comment out the following lines.
 
-![Remove or Comment out](images/remove_or_comment_out_in_theming_csproj.jpg)
+![Remove or Comment out](../images/remove_or_comment_out_in_theming_csproj.jpg)
 
 * Open a command prompt in the **WebAssembly.Theming** project and run `dotnet build`. The build will fail because of missing nuget packages.
 
@@ -80,7 +80,7 @@ The following tools are needed to be able to run the solution.
 
 * Open file **Volo.Abp.AspNetCore.Components.WebAssembly.BasicTheme.csproj** and remove or comment out the following lines.
 
-![Remove or Comment out](images/remove_or_comment_out_in_basictheme_csproj.jpg)
+![Remove or Comment out](../images/remove_or_comment_out_in_basictheme_csproj.jpg)
 
 * Open a command prompt in the **WebAssembly.BasicTheme** project and run `dotnet build`. The build should succeed.
 
@@ -119,7 +119,7 @@ The following tools are needed to be able to run the solution.
 
 Et voilà! This is the result.
 
-![SuperHero Bootstrap Theme up and running!](images/superhero_bootstrap_theme.jpg)
+![SuperHero Bootstrap Theme up and running!](../images/superhero_bootstrap_theme.jpg)
 
 You can now use your custom Bootstrap theme instead of the basic Bootstrap theme.
 
