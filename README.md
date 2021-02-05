@@ -1,5 +1,7 @@
 ## Replace Basic Bootstrap theme with a free custom Bootstrap theme
 
+![.NET](https://github.com/bartvanhoey/AbpReplaceBasicTheme/workflows/.NET/badge.svg)
+
 ## Introduction
 
 In this article, I will show how you can replace the **Basic Bootstrap theme** with a **free Custom Bootstrap theme** in a **Blazor ABP Framework** application.
