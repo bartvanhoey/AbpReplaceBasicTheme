@@ -6,7 +6,7 @@ In this article, I will show how you can replace the **Basic Bootstrap theme** w
 
 ### Source Code
 
-Source code of the completed application is [available on GitHub](https://github.com/bartvanhoey/AbpReplaceCustomTheme.git).
+Source code of the completed application is [available on GitHub](https://github.com/bartvanhoey/AbpReplaceBasicTheme.git).
 
 ## Requirements
 
@@ -28,15 +28,15 @@ The following tools are needed to be able to run the solution.
 * Use the following ABP CLI command to create a new Blazor ABP application:
 
 ```bash
-   abp new AbpReplaceCustomTheme -u blazor
+   abp new AbpReplaceBasicTheme -u blazor
 ```
 
 ### Open & Run the Application
 
 * Open the solution in Visual Studio (or your favorite IDE).
-* Run the `AbpReplaceCustomTheme.DbMigrator` application to apply the migrations and seed the initial data.
-* Run the `AbpReplaceCustomTheme.HttpApi.Host` application to start the server side.
-* Run the `AbpReplaceCustomTheme.Blazor` application to start the Blazor UI project.
+* Run the `AbpReplaceBasicTheme.DbMigrator` application to apply the migrations and seed the initial data.
+* Run the `AbpReplaceBasicTheme.HttpApi.Host` application to start the server side.
+* Run the `AbpReplaceBasicTheme.Blazor` application to start the Blazor UI project.
 
 ## Copy BasicTheme to the src folder of your project
 
@@ -125,6 +125,6 @@ You can now use your custom Bootstrap theme instead of the basic Bootstrap theme
 
 Find more about adding global styles/scripts and other fundamentals about ABP theming [here](https://docs.abp.io/en/abp/latest/UI/AspNetCore/Theming).
 
-Get the [source code](https://github.com/bartvanhoey/AbpReplaceCustomTheme) on GitHub.
+Get the [source code](https://github.com/bartvanhoey/AbpReplaceBasicTheme) on GitHub.
 
 Enjoy and have fun!
