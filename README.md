@@ -6,9 +6,11 @@
 
 In this article, I will show how you can replace the **Basic Bootstrap theme** with a **free Custom Bootstrap theme** in a **Blazor ABP Framework** application.
 
-### Source Code
+## Source Code
 
-Source code of the completed application is [available on GitHub](https://github.com/bartvanhoey/AbpReplaceBasicTheme.git).
+The sample application has been developed with **Blazor** as UI framework and **SQL Server** as database provider.
+
+The source code of the completed application is [available on GitHub](https://github.com/bartvanhoey/AbpReplaceBasicTheme.git).
 
 ## Requirements
 
@@ -30,14 +32,14 @@ The following tools are needed to be able to run the solution.
 * Use the following ABP CLI command to create a new Blazor ABP application:
 
 ```bash
-   abp new AbpReplaceBasicTheme -u blazor
+   abp new AbpReplaceBasicTheme -u blazor -o AbpReplaceBasicTheme
 ```
 
 ### Open & Run the Application
 
 * Open the solution in Visual Studio (or your favorite IDE).
 * Run the `AbpReplaceBasicTheme.DbMigrator` application to apply the migrations and seed the initial data.
-* Run the `AbpReplaceBasicTheme.HttpApi.Host` application to start the server side.
+* Run the `AbpReplaceBasicTheme.HttpApi.Host` application to start the server-side.
 * Run the `AbpReplaceBasicTheme.Blazor` application to start the Blazor UI project.
 
 ## Copy BasicTheme to the src folder of your project
@@ -66,9 +68,9 @@ The following tools are needed to be able to run the solution.
 
 ![Remove or Comment out](images/remove_or_comment_out_in_theming_csproj.jpg)
 
-* Open a command prompt in the **WebAssembly.Theming** project and run `dotnet build`. The build will fail because of missing nuget packages.
+* Open a command prompt in the **WebAssembly.Theming** project and run `dotnet build`. The build will fail because of missing NuGet packages.
 
-* Run the command below to install the missing nuget packages.
+* Run the command below to install the missing NuGet packages.
 
 ```bash
    abp add-package Volo.Abp.BlazoriseUI
@@ -98,7 +100,7 @@ The following tools are needed to be able to run the solution.
 
 ## Replace Basic Bootstrap theme with Custom Bootstrap theme
 
-* Find yourself a a free Bootstrap theme on the internet. In this example I use the  [SuperHero Bootstrap Theme](https://bootswatch.com/superhero/) I found on [bootswatch.com](https://bootswatch.com/).
+* Find yourself a free Bootstrap theme on the internet. In this example I use the  [SuperHero Bootstrap Theme](https://bootswatch.com/superhero/) I found on [bootswatch.com](https://bootswatch.com/).
 
 * Download and replace file **wwwroot\libs\bootstrap\css\bootstrap.min.css** in the **Volo.Abp.AspNetCore.Components.WebAssembly.Theming** project.
 
